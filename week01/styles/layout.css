@@ -5,7 +5,7 @@
 
 body {
     display: grid;
-    grid-template: auto 1fr auto / auto 900px auto;
+    grid-template: auto 300px auto / auto 700px auto;
 }
 
 header {
@@ -21,8 +21,7 @@ header {
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 100px;
-    font-size: larger;
-    font-weight: bold;
+    font-size:medium;
 }
 
 .main {
@@ -31,9 +30,8 @@ header {
     background-color: rgb(204, 204, 204);
     padding-top: 20px;
     padding-left: 20px;
-    padding-bottom: 500px;
-    font-size: larger;
-    font-weight: bold;
+    padding-bottom: 100px;
+    font-size: medium;
     
 }
 
@@ -44,8 +42,7 @@ header {
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 500px;
-    font-size: larger;
-    font-weight: bold;
+    font-size: medium;
 }
 
 .footer {
@@ -56,8 +53,7 @@ header {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 200px;
-    font-size: larger;
-    font-weight: bold;
+    font-size: medium;
 }
 
 nav {
@@ -72,7 +68,7 @@ nav {
     background-color: rgb(0, 0, 0);
     align-items: center;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -85,7 +81,6 @@ nav {
     font-weight:500;
     text-decoration: none;
     color: white;
-    font-size: larger;
-    font-weight: bold;
+    font-size: small;
 
 }
