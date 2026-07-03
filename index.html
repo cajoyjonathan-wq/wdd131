@@ -3,9 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <meta name="description" content="Jonathan Cajoy's home page assignment in WDD131-Dynamic Fundamentals">
+    <meta name="author" content="Jonathan Cajoy">
+    <title>WDD 131 – Dynamic Web Fundamentals – Jonathan Cajoy</title>
+    <link href="styles/base.css" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>WDD 131 - Jonathan Cajoy</h1>
+    <header>
+        <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+        <nav class="navigation">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/jonathancajoyva/">Linked In</a></li>
+                <li><a href="https://byupw.instructure.com/">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng&id=p27#p27">Scripture</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <main>
+        <h1>Jonathan E. Cajoy</h1>
+        <section class="card">
+            <div class="about-me">
+                <h2>About Me</h2>
+                <p>My name is Jonathan Cajoy. I was born and still currently living in the Philippines.
+                    I am still currently a student at BYU-Idaho by BYU-Pathwayconnect, pursuing a Bachelor's 
+                    Degree in Software Development. I love my family and I like music, traveling and learning history and 
+                    technology.
+                </p>
+                <img src="images/profile.jpg" alt="Jonathan Cajoy Profile">
+                <h3>Pagadian, Philippines</h3>
+            </div>
+            <div class="location">
+                <figure>
+                    <img src="images/philippine-flag.jpg" alt="Official Flag of the Philippines">
+                    <figcaption>Official Flag of the Philippines</figcaption>
+                </figure>
+                <p>The Philippines, officially the Republic of the Philippines, is an archipelagic country in Southeast Asia. Located
+                in the western Pacific Ocean, it consists of about 7,641 islands, with a total area of about 300,000 square kilometers,
+                which are broadly categorized in three main geographical divisions from north to south: Luzon, Visayas, and Mindanao.
+                With a population of over 114 million, it is the world's twelfth-most-populous country.
+                </p>
+            </div>
+        </section>
+        <section class="card">
+            <div class="resources">
+                <h4>Web Dev Resources</h4>
+                <ul class="resources">
+                    <li><a href="#">Dev.to Community</a></li>
+                    <li><a href="#">Smashing Magazine</a></li>
+                    <li><a href="#">CSS Tricks</a></li>
+                    <li><a href="#">W3 Schools</a></li>
+                    <li><a href="#">Udemy</a></li>
+                    <li><a href="#">Lorem Picsum Image Placeholder</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Jonathan Cajoy | Philippines</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
