@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="description" content="Temples photo album page">
+    <meta name="author" content="Jonathan E. Cajoy">
+    <link href="styles/temples.css" rel="stylesheet">
+    <link href="styles/temples-large.css" rel="stylesheet" media="screen and (min-width: 640px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <script src="scripts/temples.js" defer></script>
+</head>
+<body>
+    <header>
+        <span id="album-title">Temple Album</span>
+        <nav class="nav-link">
+            <button class="hamburger-menu">☰</button>
+            <ul>
+                <li><a href="#" title="home">Home</a></li>
+                <li><a href="#" title="old">Old</a></li>
+                <li><a href="#" title="new">New</a></li>
+                <li><a href="#" title="large">Large</a></li>
+                <li><a href="#" title="small">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <div class="pictures">
+            <figure>
+                <img src="images/alabang-temple.jpg" alt="alabang-temple">
+                <figcaption>Alabang Philippines</figcaption>
+            </figure>
+            <figure>
+                <img src="images/bacolod-temple.jpg" alt="bacolod-temple">
+                <figcaption>Bacolod Philippines</figcaption>
+            </figure>
+            <figure>
+                <img src="images/cagayandeoro-temple.jpg" alt="cagayandeoro-temple">
+                <figcaption>Cagayan De Oro Philippines</figcaption>
+            </figure>
+            <figure>
+                <img src="images/cebu-temple.jpg" alt="cebu-temple">
+                <figcaption>Cebu Philippines</figcaption>
+            </figure>
+            <figure>
+                <img src="images/davao-temple.jpg" alt="davao-temple">
+                <figcaption>Davao Philippines</figcaption>
+            </figure>
+            <figure>
+                <img src="images/manila-temple.jpg" alt="manila-temple">
+                <figcaption>Manila Philippines</figcaption>
+            </figure>
+            <figure>
+                <img src="images/naga-temple.jpg" alt="naga-temple">
+                <figcaption>Naga Philippines</figcaption>
+            </figure>
+            <figure>
+                <img src="images/santiago-temple.jpg" alt="santiago-temple">
+                <figcaption>Santiago Philippines</figcaption>
+            </figure>
+            <figure>
+                <img src="images/tacloban-temple.jpg" alt="tacloban-temple">
+                <figcaption>Tacloban Philippines</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Jonathan Cajoy | Philippines</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
