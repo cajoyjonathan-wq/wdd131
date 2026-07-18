@@ -9,15 +9,11 @@
         grid-row: 1;
     }
 
-    /* section {
-        display: grid;
-    } */
 
     h2 {
         margin-right: 70px;
         text-align: left;
         padding: 10px;
-        /* background-color: yellow; */
     }
 
     .data, .weather {
