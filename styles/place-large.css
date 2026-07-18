@@ -1,0 +1,78 @@
+@media screen and (min-width: 786px) {
+    main {
+        display: grid;
+        grid-template-columns: 400px 1fr 400px;
+    }
+
+    .hero {
+        grid-column: 1 / 4;
+        grid-row: 1;
+    }
+
+    /* section {
+        display: grid;
+    } */
+
+    h2 {
+        margin-right: 70px;
+        text-align: left;
+        padding: 10px;
+        /* background-color: yellow; */
+    }
+
+    .data, .weather {
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .data h2 {
+        width: 270px;
+        background-color: rgb(255, 0, 0, 0.8);
+        color: rgb(0, 0, 0);
+    }
+
+    .data {
+        grid-column: 1 / 2;
+        grid-row: 1;
+        margin-top: 50px;
+        margin-left: 50px;
+        background-color: rgb(225, 225, 225, 0.8);
+        width: 250px;
+        height: 300px;
+    }
+
+    svg {
+        display: none;
+    }
+
+    .weather h2 {
+        width: 250px;
+        background-color: rgb(255, 251, 0, 0.7);
+        margin-right: 50px;
+        margin-top: 5px;
+    }
+
+    .weather h2::after {
+        content: "⛅";
+        margin-right: 40px;
+    }
+
+    .weather {
+        grid-column: 3 / 4;
+        grid-row: 1;
+        margin-top: 650px;
+        margin-left: 50px;
+        width: 250px;
+        height: 200px;
+        background-color: rgb(225, 225, 225, 0.8);
+    }
+
+    .weather h2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .weather-icon {
+        display: flex;
+    }
+}
