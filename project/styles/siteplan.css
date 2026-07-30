@@ -1,0 +1,26 @@
+:root {
+    --primary-color: #48ff00;
+    --secondary-color: #eee;
+    --heading-font: "Verdana", sans-serif;
+    --body-font: "Segoe UI", sans-serif;
+}
+
+header {
+    background-color: #48ff00;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+}
+
+p {
+    font-family: var(--body-font)
+}
