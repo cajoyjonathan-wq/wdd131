@@ -10,65 +10,68 @@
     <link href="styles/form.css" rel="stylesheet">
     <script src="scripts/form.js" defer></script>
 </head>
-<span>
+
+<body>
     <header>
         <h1>Product Review</h1>
     </header>
     
+    <main>
         <form method="get" action="review.html" class="dt3">
-        
-        <label for="subject">
-            <span class="h2-label">Product Name*</span>
-            <select name="subject" id="subject" required>
-                <option value="" disabled selected>Select a Product...</option>    
-            </select>
-        </label>
-        
-        
-        <span class="h2-label">Overall Rating*</span>
-        <div class="row">
-            <label for="rating-1">&star;<input type="radio" id="rating-1" name="stars" value="1" required></label>
-            <label for="rating-2">&star;&star;<input type="radio" id="rating-2" name="stars" value="2" required></label>
-            <label for="rating-3">&star;&star;&star;<input type="radio" id="rating-3" name="stars" value="3" required></label>
-            <label for="rating-4">&star;&star;&star;&star;<input type="radio" id="rating-4" name="stars" value="4" required></label>
-            <label for="rating-5">&star;&star;&star;&star;&star;<input type="radio" id="rating-5" name="stars" value="5" required></label>
-        </div>
-        
-        <div class="date">
-            <label for="completedDate">
-                <span class="h2-label">Date of Installation*</span>
-                <input type="date" name="completedDate" id="completedDate" required>
-            </label>
-        </div>
 
-        <span class="h2-label">Which features did you find useful in the product?</span>
-        <div class="check">
-            <span class="h3-label">(Check all that apply)</span>
-            <label for="durability"><input type="checkbox" id="durability" name="durability" value="yes">Durability</label>
-            <label for="ease"><input type="checkbox" id="ease" name="ease" value="yes">Ease of Use</label>
-            <label for="performance"><input type="checkbox" id="performance" name="performance" value="yes">Performance</label>
-            <label for="design"><input type="checkbox" id="design" name="design" value="yes">Design</label>
-        </div>
-
-        <div class="text">
-            <label for="review">
-                <span class="h4-label">Written Review</span><span class="optional">(Optional)</span>
-                <textarea id="review" name="review"></textarea>
+            <label for="subject">
+                <span class="h2-label">Product Name*</span>
+                <select name="subject" id="subject" required>
+                    <option value="" disabled selected>Select a Product...</option>    
+                </select>
             </label>
-        </div>
 
-        <div class="namearea">
-            <label for="name">
-                <span class="h4-label">Your Name</span><span class="optional">(Optional)</span>
-                <input type="text" id="name" name="name">
-            </label>
-        </div>
-        
-        <div class="button">
-            <input type="submit" id="button" value="Post Review">
-        </div>
-        
-    </form>
+
+            <span class="h2-label">Overall Rating*</span>
+            <div class="row">
+                <label for="rating-1">&star;<input type="radio" id="rating-1" name="stars" value="1" required></label>
+                <label for="rating-2">&star;&star;<input type="radio" id="rating-2" name="stars" value="2" required></label>
+                <label for="rating-3">&star;&star;&star;<input type="radio" id="rating-3" name="stars" value="3" required></label>
+                <label for="rating-4">&star;&star;&star;&star;<input type="radio" id="rating-4" name="stars" value="4" required></label>
+                <label for="rating-5">&star;&star;&star;&star;&star;<input type="radio" id="rating-5" name="stars" value="5" required></label>
+            </div>
+
+            <div class="date">
+                <label for="completedDate">
+                    <span class="h2-label">Date of Installation*</span>
+                    <input type="date" name="completedDate" id="completedDate" required>
+                </label>
+            </div>
+
+            <span class="h2-label">Which features did you find useful in the product?</span>
+            <div class="check">
+                <span class="h3-label">(Check all that apply)</span>
+                <label for="durability"><input type="checkbox" id="durability" name="durability" value="yes">Durability</label>
+                <label for="ease"><input type="checkbox" id="ease" name="ease" value="yes">Ease of Use</label>
+                <label for="performance"><input type="checkbox" id="performance" name="performance" value="yes">Performance</label>
+                <label for="design"><input type="checkbox" id="design" name="design" value="yes">Design</label>
+            </div>
+
+            <div class="text">
+                <label for="review">
+                    <span class="h4-label">Written Review</span><span class="optional">(Optional)</span>
+                    <textarea id="review" name="review"></textarea>
+                </label>
+            </div>
+
+            <div class="namearea">
+                <label for="name">
+                    <span class="h4-label">Your Name</span><span class="optional">(Optional)</span>
+                    <input type="text" id="name" name="name">
+                </label>
+            </div>
+
+            <div class="button">
+                <input type="submit" id="button" value="Post Review">
+            </div>
+
+        </form>
+    </main>
     
     <footer>
         <p>&copy;<span id="currentyear"></span> | Jonathan Cajoy | Philippines</p>
