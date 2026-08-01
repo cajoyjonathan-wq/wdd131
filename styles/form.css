@@ -39,10 +39,11 @@ form {
     margin: 0 auto;
 }
 
-h2 {
-    font-size: large;
+
+.h2-label {
+    display: block;
+    font-size:x-large;
     margin-top: 20px;
-    /* margin-left: 20px; */
 }
 
 .dt3 div {
@@ -80,7 +81,7 @@ input[type="date"] {
     margin-top: 10px;
 }
 
-.check h3 {
+.h3-label {
     font-size:large;
     font-style: italic;
 }
@@ -100,11 +101,13 @@ input[type="date"] {
     flex-direction: row ;
 } */
 
-.text h4 {
+.h4-label {
+    display: block;
+    font-size: x-large;
     padding-top: 20px;
 }
 
-.text p {
+.optional {
     font-size: large;
     color: blue;
     margin-bottom: 10px;
@@ -117,8 +120,12 @@ input[type="date"] {
     height: 100px;
 }
 
+.h4-label, .optional {
+    display: flex;
+    flex-direction: row;
+}
 
-.namearea h4 {
+/* .namearea h4 {
     padding-top: 20px;
 }
 
@@ -127,7 +134,7 @@ input[type="date"] {
     padding-bottom: 5px;
     font-size: large;
     color: blue;
-}
+} */
 
 .namearea input {
     width: 100%;
