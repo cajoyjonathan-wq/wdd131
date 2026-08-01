@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form</title>
+    <meta name="description" content="A product review form that asks the user for their feedback
+     on the product by filling up the required fields of the form.">
+    <meta name="author" content="Jonathan Cajoy">
+    <link href="styles/form.css" rel="stylesheet">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <body>
+        <form method="get" action="review.html" class="dt3">
+            
+            <label for="subject">
+                <h2>Product Name*</h2>
+                <select name="subject" id="subject" required>
+                    <option value="" disabled selected>Select a Product...</option>    
+                </select>
+            </label>
+            
+            
+            <h2>Overall Rating*</h2>
+            <div class="row">
+                <label for="rating-1">&star;<input type="radio" id="rating-1" name="stars" value="1" required></label>
+                <label for="rating-2">&star;&star;<input type="radio" id="rating-2" name="stars" value="2" required></label>
+                <label for="rating-3">&star;&star;&star;<input type="radio" id="rating-3" name="stars" value="3" required></label>
+                <label for="rating-4">&star;&star;&star;&star;<input type="radio" id="rating-4" name="stars" value="4" required></label>
+                <label for="rating-5">&star;&star;&star;&star;&star;<input type="radio" id="rating-5" name="stars" value="5" required></label>
+            </div>
+
+            
+            <div class="date">
+                <label for="completedDate">
+                    <h2>Date of Installation*</h2>
+                    <input type="date" name="completedDate" id="completedDate" required>
+                </label>
+            </div>
+
+            <h2>Which features did you find useful in the product?</h2>
+            <div class="check">
+                <h3>(Check all that apply)</h3>
+                <label><input type="checkbox" id="durability" name="durability" value="yes">Durability</label>
+                <label><input type="checkbox" id="ease" name="ease" value="yes">Ease of Use</label>
+                <label><input type="checkbox" id="performance" name="performance" value="yes">Performance</label>
+                <label><input type="checkbox" id="design" name="design" value="yes">Design</label>
+            </div>
+
+            <div class="text">
+                <label for="review">
+                    <h4>Written Review</h4><p>(Optional)</p>
+                    <textarea id="review" name="review"></textarea>
+                </label>
+            </div>
+
+
+            <div class="namearea">
+                <label for="name">
+                    <h4>Your Name</h4><p>(Optional)</p>
+                    <input type="text" id="name" name="name">
+                </label>
+            </div>
+
+            <div class="button">
+                <input type="submit" id="button" value="Post Review">
+            </div>
+            
+        </form>
+    </body>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Jonathan Cajoy | Philippines</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
