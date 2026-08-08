@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venomous</title>
+    <meta name="description" content="A page that descripbes Venomous
+    Snakes. This will be activated in one of the navigation menus at the
+    project file.">
+    <meta name="author" content="Jonathan Cajoy">
+    <link href="styles/project.css" rel="stylesheet">
+    <script src="scripts/project.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <span id="'website-title">Snake Encylomania</span>
+        <nav class="nav-link">
+            <button class="hamburger-menu">☰</button>
+            <ul>
+                <li><a href="project.html" title="home" id="home">Home</a></li>
+                <li><a href="constrictors.html" title="constrictors" id="constrictors">Constrictors</a></li>
+                <li><a href="venomous.html" title="venomous" id="venomous">Venomous</a></li>
+                <li><a href="why-snakes.html" title="why-snakes" id="why-snakes">Why Snakes?</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <h1>Pest-Control</h1>
+                <source srcset="images/eating-rat.webp" media="(min-width:1000px)">
+                <img src="images/rat.webp" alt="rice" width="400px" height="600px" loading="lazy">
+            </picture>
+            <article>
+                <img src="images/rice.webp" alt="rice" loading="lazy">
+                <p>Snakes might be scary and dangerous, yet they play a crucial role
+                    in controlling the population of the pests that destroys our food
+                    and bring diseases like mice. With proper Orientation and Training, 
+                    we can understand to appreciate this wonderful creatures in safe 
+                    way for us and the snakes! Join our Safety Training by filling up the form below!
+                </p>
+            </article>
+        </div>
+
+        <div class="mobile-p">
+            <p>Snakes might be scary and dangerous, yet they play a crucial role
+            in controlling the population of the pests that destroys our food
+            and bring diseases like mice. With proper Orientation and Training,
+            we can understand to appreciate this wonderful creatures in safe
+            way for us and the snakes! Join our Safety Training by filling up the form below!</p>
+        </div>
+
+        <form method="get" action="review.html" class="snk">
+
+            <h2>Register for our Snake Safety Training Program!</h2>
+
+            <fieldset>
+                <legend>Name</legend>
+                <label for="name">
+                    <span class="h2-label">Your Name*:</span>
+                    <input type="text" id="name" name="name" required>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Email</legend>
+                <label for="email">
+                    <span class="h2-label">Your Email*:</span>
+                    <input type="text" id="email" name="email" required>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Scheduled Appoinment</legend>
+                <label for="appointment">
+                    <span class="h2-label">Your Appoinment*:</span>
+                    <input type="date" id="date" name="date" required>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Optional Details</legend>
+
+                <span class="h2-label">Status</span>
+                <div class="radio">
+                    <label><input type="radio" name="status" value="traninee">Trainee</label>
+                    <label><input type="radio" name="status" value="student">Adult</label>
+                    <label><input type="radio" name="status" value="child">Child</label>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                    <legend>Data Privacy</legend>
+                    <p>Do you allow your information to be disclosed?</p>
+                    <div class="checkbox">
+                        <label for="agreement"><input type="checkbox" id="agreement" name="agreement" value="yes" required>I agree 
+                        my Data will be used for consideration for my Application of 
+                        the said Training.</label>
+                    </div>
+            </fieldset>
+
+            <div class="button">
+                <input type="submit" id="button" value="Slither with Us!">
+            </div>
+        </form>
+
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Jonathan Cajoy | Philippines</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

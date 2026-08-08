@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Project</title>
+    <meta name="description" content="A Website that contains information about snakes, it includes also
+    includes a register form for a Snake Safety Training Program. The websit is also adjustable on the
+    screen sizes.">
+    <meta name="author" content="Jonathan Cajoy">
+    <link href="styles/project.css" rel="stylesheet">
+    <script src="scripts/project.js" defer></script>
+</head>
+<body>
+    <header>
+        <span id="website-title">Snake Encylomania</span>
+        <nav class="nav-link">
+            <button class="hamburger-menu">☰</button>
+            <ul>
+                <li><a href="project.html" title="home" id="home">Home</a></li>
+                <li><a href="constrictors.html" title="constrictors" id="constrictors">Constrictors</a></li>
+                <li><a href="venomous.html" title="venomous" id="venomous">Venomous</a></li>
+                <li><a href="why-snakes.html" title="why-snakes" id="why-snakes">Why Snakes?</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <h1>What are Snakes?</h1>
+                <source srcset="images/pageone-large-screen.webp" media="(min-width:1000px)">
+                <img src="images/pageone-mobile-screen.webp" alt="greenboa" width="400px" height="600px" loading="lazy">
+            </picture>
+            <article>
+                <p>Snakes are Limbless reptiles that are found in almost all the world!
+                    They vary in size, habitat, and hostility. Some snakes are considered
+                    as Constrictors, where they squeeze the life out of their prey. Some are 
+                    Venomous which they use to de-mobilize their prey or defend themselves
+                    from predators that attacks them.
+                </p>
+            </article>
+        </div>
+
+        <div class="mobile-p">
+            <p>Snakes are Limbless reptiles that are found in almost all the world!
+            They vary in size, habitat, and hostility. Some snakes are considered
+            as Constrictors, where they squeeze the life out of their prey. Some are
+            Venomous which they use to de-mobilize their prey or defend themselves
+            from predators that attacks them.</p>
+        </div>
+        
+        <div class="snake-list"></div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Jonathan Cajoy | Philippines</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
